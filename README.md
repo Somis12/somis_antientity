@@ -1,12 +1,5 @@
     No "5 entities per 10 seconds" garbage. No false positives. No bypasses.
     
-    ────────────────────────────────────────────────────────────────────────
-    • Instant DropPlayer on any cheat ped/vehicle (popType 5) when NPCs disabled
-    • 5-meter positional one-time whitelist (auto-expiring, per-player, per-model)
-    • Full entityCreating protection with correct population type checks
-    • Silent DeleteEntity + detailed log for everything else
-    • Exported functions so your scripts never get blocked
-    ────────────────────────────────────────────────────────────────────────
     config = {}
     config.npcs = false   -- ONLY set true if you have real ambient walking/driving NPCs
                           -- Interactive/job peds are NOT affected by this setting

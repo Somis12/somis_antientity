@@ -4,7 +4,7 @@ AddEventHandler('populationPedCreating', function(px, py, pz, model, setters)
         CancelEvent()
 end)
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         Citizen.Wait(0)
         SetVehiclePopulationBudget(0)
@@ -21,4 +21,5 @@ Citizen.CreateThread(function()
         SetRandomVehicleDensityMultiplierThisFrame(0.0)                 
     end
 end)
+
 end

@@ -1,0 +1,2 @@
+config = {}
+config.npcs = false -- if you have npcs change to true, but it will cost you protection. (NPCS ARE THE ONES WALKING AND DRIVING, NOT THE ONES YOU PUT YOUR TARGET ON AND BUY STUFF "interactive peds")
